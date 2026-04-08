@@ -51,5 +51,18 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+    padding: 9px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+label {
+  display: inline; /* Faz com que ele fique ao lado de outros elementos */
 }
